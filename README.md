@@ -1,16 +1,38 @@
-### Hi there 👋
+# 🕰️Conversation Chronicles🕰️
 
-<!--
-**conversation-chronicles/conversation-chronicles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Code for Proceedings of EMNLP 2023 EMNLP 2023 paper ["Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations"]() Jihyoung Jang, MinSeong Boo,  and Hyounghun Kim.
 
-Here are some ideas to get you started:
+## Dataset and Model
+- **We have uploaded our dataset and model to Hugging Face.**
+- [Conversation Chronicles - Dataset](https://huggingface.co/datasets/jihyoung/ConversationChronicles)
+- [ReBot - Generation Module](https://huggingface.co/jihyoung/rebot-generation)
+- [ReBot - Summarizaiton Module](https://huggingface.co/jihyoung/rebot-summarization)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Requirements 
+```Shell
+pip install torch
+pip install transformers
+pip install colorful
+```
+You can set up the environment easily through a **conda environment file**. Please refer to the usage section.
+
+## Ussage
+```Shell
+conda env create -f environment.yml
+conda activate rebot
+python rebot.py
+```
+
+## Acknowledgments
+Base code is from ["SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization" paper's code repository](https://github.com/skywalker023/sodaverse), thanks.
+
+## Citation Infromation
+```
+@inproceedings{jang2023conversation,
+    title={Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations},
+    author={Jihyoung Jang, MinSeong Boo, Hyounghun Kim},
+    booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+    year={2023},
+    url={https://openreview.net/forum?id=9LPJK81xy1}
+}
+```
