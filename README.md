@@ -16,7 +16,7 @@ pip install colorful
 ```
 You can set up the environment easily through a **conda environment file**. Please refer to the usage section.
 
-## Useage
+## Useage
 ```Shell
 conda env create -f environment.yml
 conda activate rebot
