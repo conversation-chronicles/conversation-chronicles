@@ -1,6 +1,6 @@
-# 🕰️Conversation Chronicles🕰️
+# 🕰️ Conversation Chronicles
 
-Code for Proceedings of EMNLP 2023 EMNLP 2023 paper ["Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations"]() Jihyoung Jang, MinSeong Boo,  and Hyounghun Kim.
+Code for Proceedings of EMNLP 2023 EMNLP 2023 paper ["Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations"](https://arxiv.org/abs/2310.13420) Jihyoung Jang, MinSeong Boo, and Hyounghun Kim.
 
 ## Dataset and Model
 - **We have uploaded our dataset and model to Hugging Face.**
@@ -33,6 +33,6 @@ Base code is from ["SODA: Million-scale Dialogue Distillation with Social Common
     author={Jihyoung Jang, MinSeong Boo, Hyounghun Kim},
     booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
     year={2023},
-    url={https://openreview.net/forum?id=9LPJK81xy1}
+    url={https://arxiv.org/abs/2310.13420}
 }
 ```
