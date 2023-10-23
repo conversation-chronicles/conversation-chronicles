@@ -10,12 +10,12 @@ class ReBot:
     def __init__(self):
         print(cf.bold | cf.purple("Preparing for multi-session chat with ReBot..."))
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.tokenizer = AutoTokenizer.from_pretrained("Jihyoung/rebot-generation")
-        self.model = AutoModelForSeq2SeqLM.from_pretrained("Jihyoung/rebot-generation").to(self.device)
+        self.tokenizer = AutoTokenizer.from_pretrained("jihyoung/rebot-generation")
+        self.model = AutoModelForSeq2SeqLM.from_pretrained("jihyoung/rebot-generation").to(self.device)
         self.summarizer = pipeline("summarization",
-                                   model=AutoModelForSeq2SeqLM.from_pretrained("Jihyoung/rebot-summarization").to(
+                                   model=AutoModelForSeq2SeqLM.from_pretrained("jihyoung/rebot-summarization").to(
                                        self.device),
-                                   tokenizer=AutoTokenizer.from_pretrained("Jihyoung/rebot-summarization"), device=0)
+                                   tokenizer=AutoTokenizer.from_pretrained("jihyoung/rebot-summarization"), device=0)
         self.single_session = []
         self.sequence = ""
         self.speaker = []
