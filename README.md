@@ -28,11 +28,21 @@ Base code is from ["SODA: Million-scale Dialogue Distillation with Social Common
 
 ## Citation Infromation
 ```
-@inproceedings{jang2023conversation,
-    title={Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations},
-    author={Jihyoung Jang, MinSeong Boo, Hyounghun Kim},
-    booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
-    year={2023},
-    url={https://arxiv.org/abs/2310.13420}
+@inproceedings{jang-etal-2023-conversation,
+    title = "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations",
+    author = "Jang, Jihyoung  and
+      Boo, Minseong  and
+      Kim, Hyounghun",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.838",
+    doi = "10.18653/v1/2023.emnlp-main.838",
+    pages = "13584--13606",
 }
 ```
